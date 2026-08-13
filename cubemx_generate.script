@@ -1,0 +1,3 @@
+config load c:\Users\Admin\Desktop\chipxa\stm32f401ccu6\STM32F401CCU6_LED.ioc
+generate code c:\Users\Admin\Desktop\chipxa\stm32f401ccu6
+exit

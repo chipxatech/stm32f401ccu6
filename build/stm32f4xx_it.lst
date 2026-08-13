@@ -1,0 +1,349 @@
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.arch armv7e-m
+   3              		.fpu fpv4-sp-d16
+   4              		.eabi_attribute 27, 1
+   5              		.eabi_attribute 28, 1
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.file	"stm32f4xx_it.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.file 1 "Core/Src/stm32f4xx_it.c"
+  20              		.section	.text.NMI_Handler,"ax",%progbits
+  21              		.align	1
+  22              		.global	NMI_Handler
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	NMI_Handler:
+  28              	.LFB160:
+   1:Core/Src/stm32f4xx_it.c **** /* USER CODE BEGIN Header */
+   2:Core/Src/stm32f4xx_it.c **** /**
+   3:Core/Src/stm32f4xx_it.c ****   ******************************************************************************
+   4:Core/Src/stm32f4xx_it.c ****   * @file    stm32f4xx_it.c
+   5:Core/Src/stm32f4xx_it.c ****   * @brief   Interrupt Service Routines.
+   6:Core/Src/stm32f4xx_it.c ****   ******************************************************************************
+   7:Core/Src/stm32f4xx_it.c ****   */
+   8:Core/Src/stm32f4xx_it.c **** /* USER CODE END Header */
+   9:Core/Src/stm32f4xx_it.c **** 
+  10:Core/Src/stm32f4xx_it.c **** /* Includes ------------------------------------------------------------------*/
+  11:Core/Src/stm32f4xx_it.c **** #include "main.h"
+  12:Core/Src/stm32f4xx_it.c **** #include "stm32f4xx_it.h"
+  13:Core/Src/stm32f4xx_it.c **** 
+  14:Core/Src/stm32f4xx_it.c **** /* External variables --------------------------------------------------------*/
+  15:Core/Src/stm32f4xx_it.c **** 
+  16:Core/Src/stm32f4xx_it.c **** /******************************************************************************/
+  17:Core/Src/stm32f4xx_it.c **** /*           Cortex-M4 Processor Interruption and Exception Handlers          */
+  18:Core/Src/stm32f4xx_it.c **** /******************************************************************************/
+  19:Core/Src/stm32f4xx_it.c **** 
+  20:Core/Src/stm32f4xx_it.c **** /**
+  21:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Non maskable interrupt.
+  22:Core/Src/stm32f4xx_it.c ****   */
+  23:Core/Src/stm32f4xx_it.c **** void NMI_Handler(void)
+  24:Core/Src/stm32f4xx_it.c **** {
+  29              		.loc 1 24 1 view -0
+  30              		.cfi_startproc
+  31              		@ Volatile: function does not return.
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		@ link register save eliminated.
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 2
+
+
+  35              	.L2:
+  25:Core/Src/stm32f4xx_it.c ****   while (1)
+  36              		.loc 1 25 3 view .LVU1
+  26:Core/Src/stm32f4xx_it.c ****   {
+  27:Core/Src/stm32f4xx_it.c ****   }
+  37              		.loc 1 27 3 view .LVU2
+  25:Core/Src/stm32f4xx_it.c ****   while (1)
+  38              		.loc 1 25 9 view .LVU3
+  39 0000 FEE7     		b	.L2
+  40              		.cfi_endproc
+  41              	.LFE160:
+  43              		.section	.text.HardFault_Handler,"ax",%progbits
+  44              		.align	1
+  45              		.global	HardFault_Handler
+  46              		.syntax unified
+  47              		.thumb
+  48              		.thumb_func
+  50              	HardFault_Handler:
+  51              	.LFB161:
+  28:Core/Src/stm32f4xx_it.c **** }
+  29:Core/Src/stm32f4xx_it.c **** 
+  30:Core/Src/stm32f4xx_it.c **** /**
+  31:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Hard fault interrupt.
+  32:Core/Src/stm32f4xx_it.c ****   */
+  33:Core/Src/stm32f4xx_it.c **** void HardFault_Handler(void)
+  34:Core/Src/stm32f4xx_it.c **** {
+  52              		.loc 1 34 1 view -0
+  53              		.cfi_startproc
+  54              		@ Volatile: function does not return.
+  55              		@ args = 0, pretend = 0, frame = 0
+  56              		@ frame_needed = 0, uses_anonymous_args = 0
+  57              		@ link register save eliminated.
+  58              	.L4:
+  35:Core/Src/stm32f4xx_it.c ****   while (1)
+  59              		.loc 1 35 3 view .LVU5
+  36:Core/Src/stm32f4xx_it.c ****   {
+  37:Core/Src/stm32f4xx_it.c ****   }
+  60              		.loc 1 37 3 view .LVU6
+  35:Core/Src/stm32f4xx_it.c ****   while (1)
+  61              		.loc 1 35 9 view .LVU7
+  62 0000 FEE7     		b	.L4
+  63              		.cfi_endproc
+  64              	.LFE161:
+  66              		.section	.text.MemManage_Handler,"ax",%progbits
+  67              		.align	1
+  68              		.global	MemManage_Handler
+  69              		.syntax unified
+  70              		.thumb
+  71              		.thumb_func
+  73              	MemManage_Handler:
+  74              	.LFB162:
+  38:Core/Src/stm32f4xx_it.c **** }
+  39:Core/Src/stm32f4xx_it.c **** 
+  40:Core/Src/stm32f4xx_it.c **** /**
+  41:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Memory management fault.
+  42:Core/Src/stm32f4xx_it.c ****   */
+  43:Core/Src/stm32f4xx_it.c **** void MemManage_Handler(void)
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 3
+
+
+  44:Core/Src/stm32f4xx_it.c **** {
+  75              		.loc 1 44 1 view -0
+  76              		.cfi_startproc
+  77              		@ Volatile: function does not return.
+  78              		@ args = 0, pretend = 0, frame = 0
+  79              		@ frame_needed = 0, uses_anonymous_args = 0
+  80              		@ link register save eliminated.
+  81              	.L6:
+  45:Core/Src/stm32f4xx_it.c ****   while (1)
+  82              		.loc 1 45 3 view .LVU9
+  46:Core/Src/stm32f4xx_it.c ****   {
+  47:Core/Src/stm32f4xx_it.c ****   }
+  83              		.loc 1 47 3 view .LVU10
+  45:Core/Src/stm32f4xx_it.c ****   while (1)
+  84              		.loc 1 45 9 view .LVU11
+  85 0000 FEE7     		b	.L6
+  86              		.cfi_endproc
+  87              	.LFE162:
+  89              		.section	.text.BusFault_Handler,"ax",%progbits
+  90              		.align	1
+  91              		.global	BusFault_Handler
+  92              		.syntax unified
+  93              		.thumb
+  94              		.thumb_func
+  96              	BusFault_Handler:
+  97              	.LFB163:
+  48:Core/Src/stm32f4xx_it.c **** }
+  49:Core/Src/stm32f4xx_it.c **** 
+  50:Core/Src/stm32f4xx_it.c **** /**
+  51:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Pre-fetch fault, memory access fault.
+  52:Core/Src/stm32f4xx_it.c ****   */
+  53:Core/Src/stm32f4xx_it.c **** void BusFault_Handler(void)
+  54:Core/Src/stm32f4xx_it.c **** {
+  98              		.loc 1 54 1 view -0
+  99              		.cfi_startproc
+ 100              		@ Volatile: function does not return.
+ 101              		@ args = 0, pretend = 0, frame = 0
+ 102              		@ frame_needed = 0, uses_anonymous_args = 0
+ 103              		@ link register save eliminated.
+ 104              	.L8:
+  55:Core/Src/stm32f4xx_it.c ****   while (1)
+ 105              		.loc 1 55 3 view .LVU13
+  56:Core/Src/stm32f4xx_it.c ****   {
+  57:Core/Src/stm32f4xx_it.c ****   }
+ 106              		.loc 1 57 3 view .LVU14
+  55:Core/Src/stm32f4xx_it.c ****   while (1)
+ 107              		.loc 1 55 9 view .LVU15
+ 108 0000 FEE7     		b	.L8
+ 109              		.cfi_endproc
+ 110              	.LFE163:
+ 112              		.section	.text.UsageFault_Handler,"ax",%progbits
+ 113              		.align	1
+ 114              		.global	UsageFault_Handler
+ 115              		.syntax unified
+ 116              		.thumb
+ 117              		.thumb_func
+ 119              	UsageFault_Handler:
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 4
+
+
+ 120              	.LFB164:
+  58:Core/Src/stm32f4xx_it.c **** }
+  59:Core/Src/stm32f4xx_it.c **** 
+  60:Core/Src/stm32f4xx_it.c **** /**
+  61:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Undefined instruction or illegal state.
+  62:Core/Src/stm32f4xx_it.c ****   */
+  63:Core/Src/stm32f4xx_it.c **** void UsageFault_Handler(void)
+  64:Core/Src/stm32f4xx_it.c **** {
+ 121              		.loc 1 64 1 view -0
+ 122              		.cfi_startproc
+ 123              		@ Volatile: function does not return.
+ 124              		@ args = 0, pretend = 0, frame = 0
+ 125              		@ frame_needed = 0, uses_anonymous_args = 0
+ 126              		@ link register save eliminated.
+ 127              	.L10:
+  65:Core/Src/stm32f4xx_it.c ****   while (1)
+ 128              		.loc 1 65 3 view .LVU17
+  66:Core/Src/stm32f4xx_it.c ****   {
+  67:Core/Src/stm32f4xx_it.c ****   }
+ 129              		.loc 1 67 3 view .LVU18
+  65:Core/Src/stm32f4xx_it.c ****   while (1)
+ 130              		.loc 1 65 9 view .LVU19
+ 131 0000 FEE7     		b	.L10
+ 132              		.cfi_endproc
+ 133              	.LFE164:
+ 135              		.section	.text.SVC_Handler,"ax",%progbits
+ 136              		.align	1
+ 137              		.global	SVC_Handler
+ 138              		.syntax unified
+ 139              		.thumb
+ 140              		.thumb_func
+ 142              	SVC_Handler:
+ 143              	.LFB165:
+  68:Core/Src/stm32f4xx_it.c **** }
+  69:Core/Src/stm32f4xx_it.c **** 
+  70:Core/Src/stm32f4xx_it.c **** /**
+  71:Core/Src/stm32f4xx_it.c ****   * @brief This function handles System service call via SWI instruction.
+  72:Core/Src/stm32f4xx_it.c ****   */
+  73:Core/Src/stm32f4xx_it.c **** void SVC_Handler(void)
+  74:Core/Src/stm32f4xx_it.c **** {
+ 144              		.loc 1 74 1 view -0
+ 145              		.cfi_startproc
+ 146              		@ args = 0, pretend = 0, frame = 0
+ 147              		@ frame_needed = 0, uses_anonymous_args = 0
+ 148              		@ link register save eliminated.
+  75:Core/Src/stm32f4xx_it.c **** }
+ 149              		.loc 1 75 1 view .LVU21
+ 150 0000 7047     		bx	lr
+ 151              		.cfi_endproc
+ 152              	.LFE165:
+ 154              		.section	.text.DebugMon_Handler,"ax",%progbits
+ 155              		.align	1
+ 156              		.global	DebugMon_Handler
+ 157              		.syntax unified
+ 158              		.thumb
+ 159              		.thumb_func
+ 161              	DebugMon_Handler:
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 5
+
+
+ 162              	.LFB166:
+  76:Core/Src/stm32f4xx_it.c **** 
+  77:Core/Src/stm32f4xx_it.c **** /**
+  78:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Debug monitor.
+  79:Core/Src/stm32f4xx_it.c ****   */
+  80:Core/Src/stm32f4xx_it.c **** void DebugMon_Handler(void)
+  81:Core/Src/stm32f4xx_it.c **** {
+ 163              		.loc 1 81 1 view -0
+ 164              		.cfi_startproc
+ 165              		@ args = 0, pretend = 0, frame = 0
+ 166              		@ frame_needed = 0, uses_anonymous_args = 0
+ 167              		@ link register save eliminated.
+  82:Core/Src/stm32f4xx_it.c **** }
+ 168              		.loc 1 82 1 view .LVU23
+ 169 0000 7047     		bx	lr
+ 170              		.cfi_endproc
+ 171              	.LFE166:
+ 173              		.section	.text.PendSV_Handler,"ax",%progbits
+ 174              		.align	1
+ 175              		.global	PendSV_Handler
+ 176              		.syntax unified
+ 177              		.thumb
+ 178              		.thumb_func
+ 180              	PendSV_Handler:
+ 181              	.LFB167:
+  83:Core/Src/stm32f4xx_it.c **** 
+  84:Core/Src/stm32f4xx_it.c **** /**
+  85:Core/Src/stm32f4xx_it.c ****   * @brief This function handles Pendable request for system service.
+  86:Core/Src/stm32f4xx_it.c ****   */
+  87:Core/Src/stm32f4xx_it.c **** void PendSV_Handler(void)
+  88:Core/Src/stm32f4xx_it.c **** {
+ 182              		.loc 1 88 1 view -0
+ 183              		.cfi_startproc
+ 184              		@ args = 0, pretend = 0, frame = 0
+ 185              		@ frame_needed = 0, uses_anonymous_args = 0
+ 186              		@ link register save eliminated.
+  89:Core/Src/stm32f4xx_it.c **** }
+ 187              		.loc 1 89 1 view .LVU25
+ 188 0000 7047     		bx	lr
+ 189              		.cfi_endproc
+ 190              	.LFE167:
+ 192              		.section	.text.SysTick_Handler,"ax",%progbits
+ 193              		.align	1
+ 194              		.global	SysTick_Handler
+ 195              		.syntax unified
+ 196              		.thumb
+ 197              		.thumb_func
+ 199              	SysTick_Handler:
+ 200              	.LFB168:
+  90:Core/Src/stm32f4xx_it.c **** 
+  91:Core/Src/stm32f4xx_it.c **** /**
+  92:Core/Src/stm32f4xx_it.c ****   * @brief This function handles System tick timer.
+  93:Core/Src/stm32f4xx_it.c ****   *        Increments HAL tick counter every 1ms.
+  94:Core/Src/stm32f4xx_it.c ****   */
+  95:Core/Src/stm32f4xx_it.c **** void SysTick_Handler(void)
+  96:Core/Src/stm32f4xx_it.c **** {
+ 201              		.loc 1 96 1 view -0
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 6
+
+
+ 202              		.cfi_startproc
+ 203              		@ args = 0, pretend = 0, frame = 0
+ 204              		@ frame_needed = 0, uses_anonymous_args = 0
+ 205 0000 08B5     		push	{r3, lr}
+ 206              	.LCFI0:
+ 207              		.cfi_def_cfa_offset 8
+ 208              		.cfi_offset 3, -8
+ 209              		.cfi_offset 14, -4
+  97:Core/Src/stm32f4xx_it.c ****   HAL_IncTick();
+ 210              		.loc 1 97 3 view .LVU27
+ 211 0002 FFF7FEFF 		bl	HAL_IncTick
+ 212              	.LVL0:
+  98:Core/Src/stm32f4xx_it.c **** }
+ 213              		.loc 1 98 1 is_stmt 0 view .LVU28
+ 214 0006 08BD     		pop	{r3, pc}
+ 215              		.cfi_endproc
+ 216              	.LFE168:
+ 218              		.text
+ 219              	.Letext0:
+ 220              		.file 2 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 stm32f4xx_it.c
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:21     .text.NMI_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:27     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:44     .text.HardFault_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:50     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:67     .text.MemManage_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:73     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:90     .text.BusFault_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:96     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:113    .text.UsageFault_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:119    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:136    .text.SVC_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:142    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:155    .text.DebugMon_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:161    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:174    .text.PendSV_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:180    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:193    .text.SysTick_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccMC0WSy.s:199    .text.SysTick_Handler:00000000 SysTick_Handler
+
+UNDEFINED SYMBOLS
+HAL_IncTick
