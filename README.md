@@ -83,4 +83,11 @@ Sau khi nạp thành công:
 1. Chip tự động reset.
 2. LED PC13 onboard trên mạch sẽ **nhấp nháy với chu kỳ 1 giây** liên tục (500ms Sáng - 500ms Tắt).
 
-# stm32f401ccu6
+---
+
+## 🏢 Thông tin đơn vị phát triển & Hỗ trợ
+
+* **Đơn vị phát triển:** Công ty TNHH Công nghệ Chipxa
+* **Mã số thuế:** 0111399950
+* **Email:** [support@chipxa.vn](mailto:support@chipxa.vn)
+* **Liên hệ hỗ trợ kỹ thuật:** 0971399950
